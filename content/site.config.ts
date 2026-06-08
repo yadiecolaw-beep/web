@@ -336,7 +336,7 @@ export const siteConfig = {
   assets: {
     logo: {
       name: "ecolaw-logo.webp",
-      src: "/images/logos/ecolaw-logo.webp", // Ruta relativa correcta para la carpeta estática pública
+      src: "/images/logos/ecolaw-logo.webp",
       width: 240,
       height: 80,
       concept: "Identidad tipográfica premium sobre fondo negro profundo, textos en marfil elegante con el imagotipo estilizado de un colibrí dorado pulido.",
