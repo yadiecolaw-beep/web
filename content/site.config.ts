@@ -93,12 +93,12 @@ export const siteConfig = {
 
   seo: {
     title: "ECOLAW | Regularización Ejidal y Fideicomisos para Extranjeros en Nayarit",
-    description: "Firma boutique de real estate law en Nayarit. Especialistas en regularización de terrenos ejidales, fideicomisos para extranjeros y certeza jurídica inmobiliaria en Tepic y Sayulita. Consulta por WhatsApp.",
-    h1: "Regularización de terrenos ejidales en Tepic y fideicomisos para extranjeros en Nayarit",
+    description: "Firma boutique de real estate law en Nayarit. Especialistas en regularización de terrenos ejidales, fideicomisos para extranjeros y certeza jurídica inmobiliaria en Bahía de Banderas y Sayulita. Consulta por WhatsApp.",
+    h1: "Regularización de terrenos ejidales en Bahía de Banderas y fideicomisos para extranjeros en Nayarit",
     keywords: [
-      "regularización de terrenos ejidales en Tepic y Nayarit",
+      "regularización de terrenos ejidales en Bahía de Banderas y Nayarit",
       "abogado agrario en Nayarit",
-      "regularización de terrenos Tepic",
+      "regularización de terrenos Bahía de Banderas",
       "fideicomiso para extranjeros México",
       "comprar propiedad en México siendo extranjero",
       "abogado inmobiliario Nayarit",
@@ -147,8 +147,8 @@ export const siteConfig = {
 
   hero: {
     eyebrow: "Real Estate & Law en Nayarit",
-    title: "Regularización de terrenos ejidales en Tepic y fideicomisos para extranjeros en Nayarit",
-    subtitle: "Firma boutique de certeza jurídica inmobiliaria y patrimonial para propietarios, inversionistas y compradores extranjeros en Tepic, Sayulita y Riviera Nayarit.",
+    title: "Regularización de terrenos ejidales en Bahía de Banderas y fideicomisos para extranjeros en Nayarit",
+    subtitle: "Firma boutique de certeza jurídica inmobiliaria y patrimonial para propietarios, inversionistas y compradores extranjeros en Bahía de Banderas, Sayulita y Riviera Nayarit.",
     bullets: [
       "Regularización de terrenos ejidales",
       "Fideicomisos para extranjeros",
@@ -185,6 +185,21 @@ export const siteConfig = {
         href: "#extranjeros",
         serviceKey: "fideicomisos-extranjeros"
       }
+    ]
+  },
+
+  // SECCIÓN AÑADIDA: Diferenciación Boutique y Cobertura (Zonas)
+  coverageBoutique: {
+    title: "Enfoque Legal Boutique con Cobertura Estratégica en la Costa",
+    subtitle: "Resolvemos la complejidad jurídica de las zonas de mayor desarrollo en Nayarit con la atención personalizada que las grandes firmas corporativas diluyen.",
+    regions: [
+      { name: "Bahía de Banderas", details: "Foco prioritario en transacciones complejas, regularización ejidal y corretaje de alta gama." },
+      { name: "Sayulita & Riviera Nayarit", description: "Estructuras de Fideicomiso seguras y Due Diligence transaccional para la comunidad internacional." },
+      { name: "Tepic (Oficina Central)", description: "Vinculación directa ante el Registro Agrario Nacional (RAN) y tribunales estatales." }
+    ],
+    differentiators: [
+      { title: "Atención Exclusiva de Socios", description: "Su caso es analizado directamente por los Directores de la firma, garantizando soluciones sin intermediarios." },
+      { title: "Expertise Agrario Especializado", description: "Dominamos el paso de régimen ejidal a propiedad privada con precisión milimétrica." }
     ]
   },
 

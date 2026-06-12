@@ -4,6 +4,7 @@ import React from "react";
 import Navigation from "../../../components/sections/Navigation";
 import HeroSection from "../../../components/sections/HeroSection";
 import ServicesSplitSection from "../../../components/sections/ServicesSplitSection";
+import CoverageBoutiqueSection from "../../../components/sections/CoverageBoutiqueSection";
 import ProblemSolutionSection from "../../../components/sections/ProblemSolutionSection";
 import WhyEcolawSection from "../../../components/sections/WhyEcolawSection";
 import ProcessSection from "../../../components/sections/ProcessSection";
@@ -25,6 +26,10 @@ export default function MarketingPage() {
       <main>
         <HeroSection />
         <ServicesSplitSection />
+        
+        {/* Nueva sección interactiva de cobertura y diferenciación boutique */}
+        <CoverageBoutiqueSection />
+        
         <ProblemSolutionSection />
         <WhyEcolawSection />
         <ProcessSection />

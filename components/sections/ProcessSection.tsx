@@ -13,13 +13,27 @@ import React, { useState, useEffect } from "react";
 const siteConfig = {
   theme: { typography: { titles: "font-serif tracking-tight" } },
   assets: {
-    services: { regularizacion: { src: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=1000&q=80", alt: "Regularización" } },
+    services: { 
+      regularizacion: { 
+        src: "/images/services/regularizacion-ejidal-nayarit-ecolaw.webp", 
+        alt: "Regularización de terrenos" 
+      } 
+    },
     audience: {
-      investors: { src: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=80", alt: "Inversionistas" },
-      foreignBuyers: { src: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1000&q=80", alt: "Foreign Buyers" }
+      investors: { 
+        src: "/images/audience/inversionistas-desarrolladores-nayarit.webp", 
+        alt: "Inversionistas y Desarrolladores" 
+      },
+      foreignBuyers: { 
+        src: "/images/audience/foreign-buyers-real-estate-nayarit.webp", 
+        alt: "Foreign Buyers" 
+      }
     },
     process: {
-      certeza: { src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=80", alt: "Certeza Jurídica" }
+      certeza: { 
+        src: "/images/process/certeza-juridica-inmobiliaria-ecolaw.webp", 
+        alt: "Certeza Jurídica" 
+      }
     }
   }
 };
@@ -60,7 +74,7 @@ export default function ProcessSection() {
 
   const [activeStep, setActiveStep] = useState(0);
 
-  // Mapeamos los 4 pasos a las imágenes que ya tenemos para darle dinamismo al slider
+  // Mapeamos los 4 pasos utilizando las rutas de tus imágenes reales en el proyecto
   const steps = [
     {
       num: "I",
@@ -100,7 +114,7 @@ export default function ProcessSection() {
   const handleSelect = (index: number) => setActiveStep(index);
 
   return (
-    <section id="proceso" className="bg-[#F3EEE5] py-20 lg:py-28 border-t border-[#A7A29A]/10">
+    <section id="proceso" className="bg-[#F3EEE5] py-20 lg:py-28 border-t border-[#A7A29A]/10 text-left">
       <Container size="wide">
         
         {/* Cabecera de la Sección */}
